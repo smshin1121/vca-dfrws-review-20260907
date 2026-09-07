@@ -1,0 +1,22 @@
+{
+  "complete_zip": "VCA_anonymous_review_v5_20260908.zip",
+  "bytes": 146333570,
+  "sha256": "1a474cf43851d37bd8740671af7c2755d41190ff476ffc5437b11910afc2c1dc",
+  "parts": [
+    {
+      "filename": "VCA_review_v5_part1.zip",
+      "archive_sha256": "09c1bb67a27531661acb40f09cc4a160ef8b609127ad1bf04d26917ef63f3585",
+      "member": "archive_part_01.bin",
+      "payload_bytes": 83886080,
+      "payload_sha256": "c01cead0fefb407437f976978b54dcd2b2f8822a18b4813a8171dc7bdf578af6"
+    },
+    {
+      "filename": "VCA_review_v5_part2.zip",
+      "archive_sha256": "2d30ec5dbd7c4d63ce51705c31252be852080753daea048096f62a002aaaf7e0",
+      "member": "archive_part_02.bin",
+      "payload_bytes": 62447490,
+      "payload_sha256": "f9c9a111032eedc003844677ffa15862f76359f2274b7ad5ab2dd111b29252c6"
+    }
+  ],
+  "scope": "Parts concatenate to the byte-identical complete archive. No evidence files are transformed."
+}
