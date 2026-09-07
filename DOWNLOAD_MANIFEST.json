@@ -18,5 +18,15 @@
       "payload_sha256": "f9c9a111032eedc003844677ffa15862f76359f2274b7ad5ab2dd111b29252c6"
     }
   ],
-  "scope": "Parts concatenate to the byte-identical complete archive. No evidence files are transformed."
+  "scope": "Parts concatenate to the byte-identical complete archive. No evidence files are transformed.",
+  "supplements": [
+    {
+      "filename": "VCA_refund_supplement_v6_20260908.zip",
+      "bytes": 7952470,
+      "sha256": "855bcdc6eabaafbe6d2ee995ab3a3f52606995ac350bccb560a4671d746eacbc",
+      "base_archive_sha256": "1a474cf43851d37bd8740671af7c2755d41190ff476ffc5437b11910afc2c1dc",
+      "extract_separately": true,
+      "scope": "External refund accounting: 11 selected cases; 3 repeated BTC payouts. Requires the frozen revision-5 Python environment."
+    }
+  ]
 }
