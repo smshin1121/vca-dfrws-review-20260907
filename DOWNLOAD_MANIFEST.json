@@ -27,6 +27,14 @@
       "base_archive_sha256": "1a474cf43851d37bd8740671af7c2755d41190ff476ffc5437b11910afc2c1dc",
       "extract_separately": true,
       "scope": "External refund accounting: 11 selected cases; 3 repeated BTC payouts. Requires the frozen revision-5 Python environment."
+    },
+    {
+      "filename": "VCA_equal_outputs_supplement_v7r2_20260908.zip",
+      "bytes": 9759032,
+      "sha256": "db6457da4e327b6af13cd928ebc9f31300d99e0b61be10d9743a55e6fcd7909a",
+      "base_archive_sha256": "1a474cf43851d37bd8740671af7c2755d41190ff476ffc5437b11910afc2c1dc",
+      "extract_separately": true,
+      "scope": "Actual Bitcoin equal-output identity boundaries: fixed 8-block frame; 3 selected pairs. Derived rows, not observed Midgard actions. Requires the frozen revision-5 Python environment."
     }
   ]
 }

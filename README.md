@@ -62,3 +62,27 @@ ZIP: 7,952,470 bytes. SHA-256: `855bcdc6eabaafbe6d2ee995ab3a3f52606995ac350bccb5
 Offline extraction/recalculation passed with 237 file hashes unchanged and no
 Python socket attempts. This is a same-workflow check, not independent-team
 reproduction. No new online acquisition is needed for the review commands.
+
+## Real Bitcoin output supplement (revision 7)
+
+Download [the separate real-output supplement](VCA_equal_outputs_supplement_v7r2_20260908.zip) and extract it
+into another new directory. Its README provides an offline command using the
+revision-5 Python environment. Existing archives and first results are preserved.
+
+The local protocol fixed heights 900000--900007 before collection. Among 18,401
+transactions, 215 have distinct positive outputs sharing a specified receiving
+script and value. The first three candidates in the fixed hash ordering each
+contain two 600-satoshi outputs to the same recipient. For each pair, output-index
+accounting retains 1,200 satoshi; the four-field projection retains 600. Without
+indices the supplemental audit reports ambiguity and no verified total.
+
+These comparison rows are derived from real Bitcoin outputs, not observed
+Midgard actions or additional THORChain payouts. They do not change the original
+153-hop totals. The fixed-block convenience frame does not estimate prevalence.
+
+ZIP: 9,759,032 bytes. SHA-256: `db6457da4e327b6af13cd928ebc9f31300d99e0b61be10d9743a55e6fcd7909a`.
+Actual ZIP extraction and fresh offline replay passed: 112 file hashes unchanged,
+24 primary controls, a separate raw-block/selection/output verifier with six
+additional controls, and zero Python socket attempts. The wrapper binds the
+evaluator to a byte-identical helper inside its isolated workspace; the README
+documents this portable file-location change. This is not an independent-team run.
