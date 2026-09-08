@@ -43,6 +43,15 @@
       "extract_separately": true,
       "base_archive_required": false,
       "scope": "Thor25M frame census and one LTC input with two actual BTC payments. Standalone Python 3.11+ offline replay; not a Litecoin decoder evaluation."
+    },
+    {
+      "filename": "VCA_integrity_supplement_v9_20260908.zip",
+      "bytes": 7675031,
+      "sha256": "231892b9b76c33fde0a6e2d3ddd8782f17c4da7d67449dcb5d5e6f2d8449e1c4",
+      "extract_separately": true,
+      "base_archive_required": false,
+      "scope": "Existing graph-row versus distinct-record accounting and raw Ethereum amount audit. Standalone Python 3.11+; optional original VCA path uses the revision-5 environment. No new sample."
     }
-  ]
+  ],
+  "review_guide": "REVIEW_GUIDE.md"
 }

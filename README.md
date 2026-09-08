@@ -3,6 +3,12 @@
 This snapshot accompanies *Auditable Cross-Chain Fund Tracing from Public Records:
 Payout Reconciliation and Termination Diagnostics*.
 
+## Find a result and its command
+
+The [review guide](REVIEW_GUIDE.md) maps manuscript sections and tables to the
+evaluation units, archive files, checksums, working directories and commands.
+Start with revision 9 below for the edge-count correction and raw 2-wei check.
+
 ## Frozen base package (revision 5)
 
 The complete ZIP is 146,333,570 bytes and includes the unchanged original evidence,
@@ -121,3 +127,36 @@ The package retains the acquisition audit, including the first frame collector's
 unmeasured actual request-start spacing. Its 0.5-second target was not established
 for that phase; the later selected-record collector uses a corrected gate.
 Do not infer protocol payment multiplicity from streaming-swap sub-swap counts.
+
+## Graph-count and raw-amount integrity supplement (revision 9)
+
+Download [VCA_integrity_supplement_v9_20260908.zip](VCA_integrity_supplement_v9_20260908.zip) and extract it to a new directory.
+From its `VCA_integrity_review` root, run:
+
+```text
+python -B run_checks.py --output-dir review_run
+```
+
+Python 3.11+ standard-library modules suffice for the graph recount and archived
+RPC/prediction audit. The README also provides an optional actual VCA runtime
+check using revision 5's locked Python environment. All earlier archives remain
+unchanged; this supplement audits existing records rather than adding a sample.
+
+The Bybit no-overrides comparison has 2,142 common edge rows, 985 removed and six
+added: 3,127 - 985 + 6 = 2,148. The original baseline contains one complete record
+twice, so removing distinct records gives 984. These two counting bases were
+previously mixed in prose; table totals and original graph files are retained.
+
+The saved RPC response itself contains different hexadecimal calldata and value
+fields, differing by 2 wei. Direct integer extraction, all 96 recorded inputs,
+and actual frozen normalization agree. The original strict guard rejects this
+case; in-memory equality controls pass. No upstream cause, transaction-signature
+authentication, decoder improvement or independent-team reproduction is claimed.
+
+ZIP: 7,675,031 bytes. SHA-256: `231892b9b76c33fde0a6e2d3ddd8782f17c4da7d67449dcb5d5e6f2d8449e1c4`.
+Actual ZIP extraction and all three checks passed with 405
+manifest-listed payload hashes unchanged. Two metadata files have documented
+anonymized derivatives: local user-directory prefixes in the file-read log and
+its derived digest. Raw request/response bodies, source code, selections and
+prediction/evaluation rows are unchanged; original/published hashes and field
+names are recorded in `ANONYMIZATION.json`.
