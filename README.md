@@ -86,3 +86,38 @@ Actual ZIP extraction and fresh offline replay passed: 112 file hashes unchanged
 additional controls, and zero Python socket attempts. The wrapper binds the
 evaluator to a byte-identical helper inside its isolated workspace; the README
 documents this portable file-location change. This is not an independent-team run.
+
+## Protocol multiple-payment supplement (revision 8)
+
+Download [the separate multiple-payment supplement](VCA_protocol_multiplicity_supplement_v8_20260908.zip)
+and extract it into another new directory. Follow
+`reproducibility/protocol_multiplicity_20260908/README.md` inside that directory.
+It runs offline with standard-library Python 3.11+ and RIPEMD-160 support; the
+revision-5 installation is not required. All previous archives remain unchanged.
+
+The local plan fixed nine Thor25M files and selection rules before downloading
+their payloads. They contain 166 records, although the pinned upstream README
+states 156. Of these, 143 contain one BTC claim plus other assets, 22 no BTC claim,
+and one two distinct BTC claims. Prior-overlap and multiplicity rules leave one
+eligible LTC input, saved before fresh transaction queries without replacement.
+
+The two payments match output 0 in two saved Bitcoin transactions: 10,326 and
+16,752 satoshi. Recipient-script enumeration without a claimed-amount filter,
+the unchanged four-field calculation and the indexed audit all retain 27,078
+satoshi. Non-witness transaction IDs recompute. Fresh Midgard claims agree;
+THORNode records both actual outbounds and its historical vault key yields a
+script matching all 11 previous-output annotations in the Bitcoin responses.
+Previous transaction bodies, signatures and chain consensus are not authenticated.
+This tests output accounting, not Litecoin decoding or general tracing accuracy.
+
+ZIP: 16,270,814 bytes. SHA-256: `730a6d7695eb134bf1a022251bd26ee5bc7262f204ceb5883f7d7c6cb5976240`.
+Actual ZIP extraction and offline replay passed 171 payload hashes, a separate
+census with 23 controls, frozen evaluation with seven controls, and a separate
+raw-output recount with 24 controls. Four fresh reports agree after excluding
+only execution timestamps and normalizing path separators. Python socket guards
+recorded no network attempts. This is not an independent-team execution.
+
+The package retains the acquisition audit, including the first frame collector's
+unmeasured actual request-start spacing. Its 0.5-second target was not established
+for that phase; the later selected-record collector uses a corrected gate.
+Do not infer protocol payment multiplicity from streaming-swap sub-swap counts.

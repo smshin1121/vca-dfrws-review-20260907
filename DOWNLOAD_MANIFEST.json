@@ -35,6 +35,14 @@
       "base_archive_sha256": "1a474cf43851d37bd8740671af7c2755d41190ff476ffc5437b11910afc2c1dc",
       "extract_separately": true,
       "scope": "Actual Bitcoin equal-output identity boundaries: fixed 8-block frame; 3 selected pairs. Derived rows, not observed Midgard actions. Requires the frozen revision-5 Python environment."
+    },
+    {
+      "filename": "VCA_protocol_multiplicity_supplement_v8_20260908.zip",
+      "bytes": 16270814,
+      "sha256": "730a6d7695eb134bf1a022251bd26ee5bc7262f204ceb5883f7d7c6cb5976240",
+      "extract_separately": true,
+      "base_archive_required": false,
+      "scope": "Thor25M frame census and one LTC input with two actual BTC payments. Standalone Python 3.11+ offline replay; not a Litecoin decoder evaluation."
     }
   ]
 }
